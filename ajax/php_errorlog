@@ -1,0 +1,18 @@
+[08-Jul-2022 16:19:03 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/customer/www/polarizados-emmanuel.es/public_html/modelos/conexion.php:9
+Stack trace:
+#0 /home/customer/www/polarizados-emmanuel.es/public_html/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/customer/www/polarizados-emmanuel.es/public_html/modelos/productos.modelo.php(25): Conexion::conectar()
+#2 /home/customer/www/polarizados-emmanuel.es/public_html/controladores/productos.controlador.php(13): ModeloProductos::mdlMostrarProductos('productos', NULL, NULL, 'id')
+#3 /home/customer/www/polarizados-emmanuel.es/public_html/ajax/datatable-productos.ajax.php(22): ControladorProductos::ctrMostrarProductos(NULL, NULL, 'id')
+#4 /home/customer/www/polarizados-emmanuel.es/public_html/ajax/datatable-productos.ajax.php(118): TablaProductos->mostrarTablaProductos()
+#5 {main}
+  thrown in /home/customer/www/polarizados-emmanuel.es/public_html/modelos/conexion.php on line 9
+[08-Jul-2022 16:33:49 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'dbns5qlif7g0mc'@'localhost' (using password: YES) in /home/customer/www/polarizados-emmanuel.es/public_html/modelos/conexion.php:9
+Stack trace:
+#0 /home/customer/www/polarizados-emmanuel.es/public_html/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'dbns5qlif7g0mc', 'Minombre001')
+#1 /home/customer/www/polarizados-emmanuel.es/public_html/modelos/productos.modelo.php(25): Conexion::conectar()
+#2 /home/customer/www/polarizados-emmanuel.es/public_html/controladores/productos.controlador.php(13): ModeloProductos::mdlMostrarProductos('productos', NULL, NULL, 'id')
+#3 /home/customer/www/polarizados-emmanuel.es/public_html/ajax/datatable-productos.ajax.php(22): ControladorProductos::ctrMostrarProductos(NULL, NULL, 'id')
+#4 /home/customer/www/polarizados-emmanuel.es/public_html/ajax/datatable-productos.ajax.php(118): TablaProductos->mostrarTablaProductos()
+#5 {main}
+  thrown in /home/customer/www/polarizados-emmanuel.es/public_html/modelos/conexion.php on line 9

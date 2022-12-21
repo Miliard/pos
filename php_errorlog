@@ -1,0 +1,86 @@
+[08-Jul-2022 16:18:55 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/customer/www/polarizados-emmanuel.es/public_html/modelos/conexion.php:9
+Stack trace:
+#0 /home/customer/www/polarizados-emmanuel.es/public_html/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/customer/www/polarizados-emmanuel.es/public_html/modelos/ventas.modelo.php(189): Conexion::conectar()
+#2 /home/customer/www/polarizados-emmanuel.es/public_html/controladores/ventas.controlador.php(684): ModeloVentas::mdlSumaTotalVentas('ventas')
+#3 /home/customer/www/polarizados-emmanuel.es/public_html/vistas/modulos/inicio/cajas-superiores.php(7): ControladorVentas::ctrSumaTotalVentas()
+#4 /home/customer/www/polarizados-emmanuel.es/public_html/vistas/modulos/inicio.php(31): include('/home/customer/...')
+#5 /home/customer/www/polarizados-emmanuel.es/public_html/vistas/plantilla.php(160): include('/home/customer/...')
+#6 /home/customer/www/polarizados-emmanuel.es/public_ in /home/customer/www/polarizados-emmanuel.es/public_html/modelos/conexion.php on line 9
+[08-Jul-2022 16:19:15 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/customer/www/polarizados-emmanuel.es/public_html/modelos/conexion.php:9
+Stack trace:
+#0 /home/customer/www/polarizados-emmanuel.es/public_html/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/customer/www/polarizados-emmanuel.es/public_html/modelos/usuarios.modelo.php(15): Conexion::conectar()
+#2 /home/customer/www/polarizados-emmanuel.es/public_html/controladores/usuarios.controlador.php(22): ModeloUsuarios::mdlMostrarUsuarios('usuarios', 'usuario', 'admin')
+#3 /home/customer/www/polarizados-emmanuel.es/public_html/vistas/modulos/login.php(44): ControladorUsuarios::ctrIngresoUsuario()
+#4 /home/customer/www/polarizados-emmanuel.es/public_html/vistas/plantilla.php(174): include('/home/customer/...')
+#5 /home/customer/www/polarizados-emmanuel.es/public_html/controladores/plantilla.controlador.php(7): include('/home/customer/...')
+#6 /home/customer/www/polariza in /home/customer/www/polarizados-emmanuel.es/public_html/modelos/conexion.php on line 9
+[08-Jul-2022 16:23:06 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'dbns5qlif7g0mc'@'localhost' (using password: YES) in /home/customer/www/polarizados-emmanuel.es/public_html/modelos/conexion.php:9
+Stack trace:
+#0 /home/customer/www/polarizados-emmanuel.es/public_html/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'dbns5qlif7g0mc', 'Minombre001')
+#1 /home/customer/www/polarizados-emmanuel.es/public_html/modelos/usuarios.modelo.php(15): Conexion::conectar()
+#2 /home/customer/www/polarizados-emmanuel.es/public_html/controladores/usuarios.controlador.php(22): ModeloUsuarios::mdlMostrarUsuarios('usuarios', 'usuario', 'admin')
+#3 /home/customer/www/polarizados-emmanuel.es/public_html/vistas/modulos/login.php(44): ControladorUsuarios::ctrIngresoUsuario()
+#4 /home/customer/www/polarizados-emmanuel.es/public_html/vistas/plantilla.php(174): include('/home/customer/...')
+#5 /home/customer/www/polarizados-emmanuel.es/public_html/controladores/plantilla.controlador.php(7): include('/home/customer/...' in /home/customer/www/polarizados-emmanuel.es/public_html/modelos/conexion.php on line 9
+[08-Jul-2022 16:23:10 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'dbns5qlif7g0mc'@'localhost' (using password: YES) in /home/customer/www/polarizados-emmanuel.es/public_html/modelos/conexion.php:9
+Stack trace:
+#0 /home/customer/www/polarizados-emmanuel.es/public_html/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'dbns5qlif7g0mc', 'Minombre001')
+#1 /home/customer/www/polarizados-emmanuel.es/public_html/modelos/usuarios.modelo.php(15): Conexion::conectar()
+#2 /home/customer/www/polarizados-emmanuel.es/public_html/controladores/usuarios.controlador.php(22): ModeloUsuarios::mdlMostrarUsuarios('usuarios', 'usuario', 'admin')
+#3 /home/customer/www/polarizados-emmanuel.es/public_html/vistas/modulos/login.php(44): ControladorUsuarios::ctrIngresoUsuario()
+#4 /home/customer/www/polarizados-emmanuel.es/public_html/vistas/plantilla.php(174): include('/home/customer/...')
+#5 /home/customer/www/polarizados-emmanuel.es/public_html/controladores/plantilla.controlador.php(7): include('/home/customer/...' in /home/customer/www/polarizados-emmanuel.es/public_html/modelos/conexion.php on line 9
+[08-Jul-2022 16:23:12 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'dbns5qlif7g0mc'@'localhost' (using password: YES) in /home/customer/www/polarizados-emmanuel.es/public_html/modelos/conexion.php:9
+Stack trace:
+#0 /home/customer/www/polarizados-emmanuel.es/public_html/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'dbns5qlif7g0mc', 'Minombre001')
+#1 /home/customer/www/polarizados-emmanuel.es/public_html/modelos/usuarios.modelo.php(15): Conexion::conectar()
+#2 /home/customer/www/polarizados-emmanuel.es/public_html/controladores/usuarios.controlador.php(22): ModeloUsuarios::mdlMostrarUsuarios('usuarios', 'usuario', 'admin')
+#3 /home/customer/www/polarizados-emmanuel.es/public_html/vistas/modulos/login.php(44): ControladorUsuarios::ctrIngresoUsuario()
+#4 /home/customer/www/polarizados-emmanuel.es/public_html/vistas/plantilla.php(174): include('/home/customer/...')
+#5 /home/customer/www/polarizados-emmanuel.es/public_html/controladores/plantilla.controlador.php(7): include('/home/customer/...' in /home/customer/www/polarizados-emmanuel.es/public_html/modelos/conexion.php on line 9
+[08-Jul-2022 16:23:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'dbns5qlif7g0mc'@'localhost' (using password: YES) in /home/customer/www/polarizados-emmanuel.es/public_html/modelos/conexion.php:9
+Stack trace:
+#0 /home/customer/www/polarizados-emmanuel.es/public_html/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'dbns5qlif7g0mc', 'Minombre001')
+#1 /home/customer/www/polarizados-emmanuel.es/public_html/modelos/usuarios.modelo.php(15): Conexion::conectar()
+#2 /home/customer/www/polarizados-emmanuel.es/public_html/controladores/usuarios.controlador.php(22): ModeloUsuarios::mdlMostrarUsuarios('usuarios', 'usuario', 'admin')
+#3 /home/customer/www/polarizados-emmanuel.es/public_html/vistas/modulos/login.php(44): ControladorUsuarios::ctrIngresoUsuario()
+#4 /home/customer/www/polarizados-emmanuel.es/public_html/vistas/plantilla.php(174): include('/home/customer/...')
+#5 /home/customer/www/polarizados-emmanuel.es/public_html/controladores/plantilla.controlador.php(7): include('/home/customer/...' in /home/customer/www/polarizados-emmanuel.es/public_html/modelos/conexion.php on line 9
+[08-Jul-2022 16:33:42 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'dbns5qlif7g0mc'@'localhost' (using password: YES) in /home/customer/www/polarizados-emmanuel.es/public_html/modelos/conexion.php:9
+Stack trace:
+#0 /home/customer/www/polarizados-emmanuel.es/public_html/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'dbns5qlif7g0mc', 'Minombre001')
+#1 /home/customer/www/polarizados-emmanuel.es/public_html/modelos/usuarios.modelo.php(15): Conexion::conectar()
+#2 /home/customer/www/polarizados-emmanuel.es/public_html/controladores/usuarios.controlador.php(22): ModeloUsuarios::mdlMostrarUsuarios('usuarios', 'usuario', 'admin')
+#3 /home/customer/www/polarizados-emmanuel.es/public_html/vistas/modulos/login.php(44): ControladorUsuarios::ctrIngresoUsuario()
+#4 /home/customer/www/polarizados-emmanuel.es/public_html/vistas/plantilla.php(174): include('/home/customer/...')
+#5 /home/customer/www/polarizados-emmanuel.es/public_html/controladores/plantilla.controlador.php(7): include('/home/customer/...' in /home/customer/www/polarizados-emmanuel.es/public_html/modelos/conexion.php on line 9
+[08-Jul-2022 16:33:54 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'dbns5qlif7g0mc'@'localhost' (using password: YES) in /home/customer/www/polarizados-emmanuel.es/public_html/modelos/conexion.php:9
+Stack trace:
+#0 /home/customer/www/polarizados-emmanuel.es/public_html/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'dbns5qlif7g0mc', 'Minombre001')
+#1 /home/customer/www/polarizados-emmanuel.es/public_html/modelos/usuarios.modelo.php(15): Conexion::conectar()
+#2 /home/customer/www/polarizados-emmanuel.es/public_html/controladores/usuarios.controlador.php(22): ModeloUsuarios::mdlMostrarUsuarios('usuarios', 'usuario', 'admin')
+#3 /home/customer/www/polarizados-emmanuel.es/public_html/vistas/modulos/login.php(44): ControladorUsuarios::ctrIngresoUsuario()
+#4 /home/customer/www/polarizados-emmanuel.es/public_html/vistas/plantilla.php(174): include('/home/customer/...')
+#5 /home/customer/www/polarizados-emmanuel.es/public_html/controladores/plantilla.controlador.php(7): include('/home/customer/...' in /home/customer/www/polarizados-emmanuel.es/public_html/modelos/conexion.php on line 9
+[11-Jul-2022 18:19:48 America/Bogota] PHP Fatal error:  Uncaught Exception: Failed to print. Command "smbclient '//us260.siteground.us/epson20' -c 'print -' -N -m SMB2" failed with exit code 127: sh: smbclient: command not found in /home/customer/www/polarizados-emmanuel.es/public_html/extensiones/vendor/mike42/escpos-php/src/Mike42/Escpos/PrintConnectors/WindowsPrintConnector.php:230
+Stack trace:
+#0 /home/customer/www/polarizados-emmanuel.es/public_html/extensiones/vendor/mike42/escpos-php/src/Mike42/Escpos/PrintConnectors/WindowsPrintConnector.php(175): Mike42\Escpos\PrintConnectors\WindowsPrintConnector->finalizeLinux('\e@\ea\x012022-07-11...')
+#1 /home/customer/www/polarizados-emmanuel.es/public_html/extensiones/vendor/mike42/escpos-php/src/Mike42/Escpos/Printer.php(503): Mike42\Escpos\PrintConnectors\WindowsPrintConnector->finalize()
+#2 /home/customer/www/polarizados-emmanuel.es/public_html/controladores/ventas.controlador.php(212): Mike42\Escpos\Printer->close()
+#3 /home/customer/www/polarizados-emmanuel.es/public_html/vistas/modulos/crear-venta.php(296): Co in /home/customer/www/polarizados-emmanuel.es/public_html/extensiones/vendor/mike42/escpos-php/src/Mike42/Escpos/PrintConnectors/WindowsPrintConnector.php on line 230
+[12-Jul-2022 10:11:43 America/Bogota] PHP Fatal error:  Uncaught Exception: Failed to print. Command "smbclient '//us260.siteground.us/epson20' -c 'print -' -N -m SMB2" failed with exit code 127: sh: smbclient: command not found in /home/customer/www/polarizados-emmanuel.es/public_html/extensiones/vendor/mike42/escpos-php/src/Mike42/Escpos/PrintConnectors/WindowsPrintConnector.php:230
+Stack trace:
+#0 /home/customer/www/polarizados-emmanuel.es/public_html/extensiones/vendor/mike42/escpos-php/src/Mike42/Escpos/PrintConnectors/WindowsPrintConnector.php(175): Mike42\Escpos\PrintConnectors\WindowsPrintConnector->finalizeLinux('\e@\ea\x012022-07-12...')
+#1 /home/customer/www/polarizados-emmanuel.es/public_html/extensiones/vendor/mike42/escpos-php/src/Mike42/Escpos/Printer.php(503): Mike42\Escpos\PrintConnectors\WindowsPrintConnector->finalize()
+#2 /home/customer/www/polarizados-emmanuel.es/public_html/controladores/ventas.controlador.php(212): Mike42\Escpos\Printer->close()
+#3 /home/customer/www/polarizados-emmanuel.es/public_html/vistas/modulos/crear-venta.php(296): Co in /home/customer/www/polarizados-emmanuel.es/public_html/extensiones/vendor/mike42/escpos-php/src/Mike42/Escpos/PrintConnectors/WindowsPrintConnector.php on line 230
+[14-Jul-2022 23:03:49 UTC] PHP Fatal error:  require_once(): Failed opening required 'extensiones/vendor/autoload.php' (include_path='.:/usr/local/php74/pear') in /home/customer/www/polarizados-emmanuel.es/public_html/index.php on line 15
+[14-Jul-2022 23:04:06 UTC] PHP Fatal error:  require_once(): Failed opening required 'extensiones/vendor/autoload.php' (include_path='.:/usr/local/php74/pear') in /home/customer/www/polarizados-emmanuel.es/public_html/index.php on line 15
+[18-Jul-2022 17:02:03 America/Bogota] PHP Fatal error:  Uncaught Exception: Failed to print. Command "smbclient '//us260.siteground.us/epson20' -c 'print -' -N -m SMB2" failed with exit code 127: sh: smbclient: command not found in /home/customer/www/polarizados-emmanuel.es/public_html/extensiones/vendor/mike42/escpos-php/src/Mike42/Escpos/PrintConnectors/WindowsPrintConnector.php:230
+Stack trace:
+#0 /home/customer/www/polarizados-emmanuel.es/public_html/extensiones/vendor/mike42/escpos-php/src/Mike42/Escpos/PrintConnectors/WindowsPrintConnector.php(175): Mike42\Escpos\PrintConnectors\WindowsPrintConnector->finalizeLinux('\e@\ea\x012022-07-18...')
+#1 /home/customer/www/polarizados-emmanuel.es/public_html/extensiones/vendor/mike42/escpos-php/src/Mike42/Escpos/Printer.php(503): Mike42\Escpos\PrintConnectors\WindowsPrintConnector->finalize()
+#2 /home/customer/www/polarizados-emmanuel.es/public_html/controladores/ventas.controlador.php(212): Mike42\Escpos\Printer->close()
+#3 /home/customer/www/polarizados-emmanuel.es/public_html/vistas/modulos/crear-venta.php(296): Co in /home/customer/www/polarizados-emmanuel.es/public_html/extensiones/vendor/mike42/escpos-php/src/Mike42/Escpos/PrintConnectors/WindowsPrintConnector.php on line 230
