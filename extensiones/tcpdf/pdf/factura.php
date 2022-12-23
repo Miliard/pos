@@ -165,7 +165,7 @@ $bloque3 = <<<EOF
 	<tr>
 	
 		<td style="width:80px;">
-			 IMPUESTO: 
+			 DESCUENTO: 
 		</td>
 
 		<td style="width:80px;">
