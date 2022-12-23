@@ -188,7 +188,7 @@ if($_SESSION["perfil"] == "Especial"){
                       <thead>
 
                         <tr>
-                          <th>Impuesto</th>
+                          <th>Descuento</th>
                           <th>Total</th>      
                         </tr>
 
