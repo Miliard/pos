@@ -493,13 +493,17 @@ FUNCIÓN AGREGAR IMPUESTO
 =============================================*/
 
 function agregarImpuesto(){
-
+  // esta es al entrada del inpuesto
 	var impuesto = $("#nuevoImpuestoVenta").val();
+
+	//este es la entrada el resultado de la de la suma de los precio de todos los productas a comprar
 	var precioTotal = $("#nuevoTotalVenta").attr("total");
 
+ //aqui se hace la operacion para sacar el porcentage del resulado de la suma de todas las compras
 	var precioImpuesto = Number(precioTotal * impuesto/100);
 
-	var totalConImpuesto = Number(precioImpuesto) + Number(precioTotal);
+ // aqui se suma el reslutado de la opereacion de los impuestos,  con el reslutado de todas las compras sumadas
+	var totalConImpuesto = Number(precioTotal) - Number(precioImpuesto);
 	
 	$("#nuevoTotalVenta").val(totalConImpuesto);
 
